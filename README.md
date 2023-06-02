@@ -2,7 +2,7 @@
 The SL-scan pipeline implementation
 
 <p align="center">
- <img src="graphical abstract.jpg">
+ <img src="graphical abstract_v2.jpg">
 </p>
 
 ## Data Loading and Filtering
