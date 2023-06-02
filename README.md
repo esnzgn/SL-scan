@@ -15,9 +15,9 @@ The **2.1_SL_pair_prediction_gmcs_mcs_fastsl.m** MATLAB script constructs genome
 
 ## SL-scan cancer dependency map
 
-The **2.2_SL_pair_prediction_slscan.m** MATLAB script constructs GSMN for each cancer cell line using iMAT, Recon2.0v4, and relative expression data. Then, it constuct a gene dependency vector for each cancer model.
+The **2.2_SL_pair_prediction_slscan.m** MATLAB script constructs GSMN for each cancer cell line using iMAT, Recon2.0v4, and relative expression data. Then, it constructs a gene dependency vector for each cancer model.
 
-## SL-scan Exhuastive search with CRISPR
+## SL-scan exhuastive search with CRISPR
 
 The R script **3_MN_exhaustive_ttest_mut_achiles.R** predicts SL pairs for the dependency map of SL-scan and CRISPR data using mutation data through exhaustive T-tests. It then compares the results obtained from other SL pair prediction algorithms with CRISPR data FDR (P-values). Similarly, it performs the same comparison for SL-scan outcomes. Additionally, the script implements a series of hypergeometric tests for each algorithm and each cancer type based on their concordant results with CRISPR.
 
@@ -25,11 +25,11 @@ The R script **3_MN_exhaustive_ttest_mut_achiles.R** predicts SL pairs for the d
 
 The R script **4_MN_exhustive_ttest_mut_prism.R** predicts SL pairs for the dependency map of SL-scan and PRISM data using mutation data through exhaustive T-tests. It then compares the results obtained from other SL pair prediction algorithms with PRISM data P-values. Similarly, it performs the same comparison for SL-scan outcomes.
 
-## GSEA and SL pairs cancer generalizationa 
+## GSEA and SL pairs cancer generalization
 
-The R script **5_Generalization_and_GeneSetAnalysis_SLscan_and_ttest.R** identifies the driver partnering genes in SL-scan outcomes along with their T-statistic. It then performs a series of Gene Set Enrichment Analysis (GSEA) to identify the most frequent vulnerable biological processes in the SL-scan output. Additionally, the script constructs a bipartite network of SL pairs and cancers to analyze cancer generalization.
+The R script **5_Generalization_and_GeneSetAnalysis_SLscan_and_ttest.R** identifies the driver partnering genes in SL-scan outcomes along with their T-statistic. It then performs a series of Gene Set Enrichment Analyses (GSEA) to identify the most frequent vulnerable biological processes in the SL-scan output. Additionally, the script constructs a bipartite network of SL pairs and cancers to analyze cancer generalization.
 
-## functionality checks violon plot 
+## functionality checks violin plot 
 
 The R script **6_functionalities_plot.R** generates violin plots for each cancer metabolic model, comparing their functionality checks to 100 random models.
 
