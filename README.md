@@ -1,10 +1,10 @@
 # SL-scan
-The SL-scan pipeline implementation
 
 <p align="center">
  <img src="graphical abstract_v3.jpg">
 </p>
 
+The SL-scan pipeline implementation
 ## Data Loading and Filtering
 
 The **expression_data_preparations.R** script reads the CCLE expression data from the "../MetabolicSLinput/" directory and applies a filter to include only cancers in RPMI with more than 10 observations, as described in the manuscript.
